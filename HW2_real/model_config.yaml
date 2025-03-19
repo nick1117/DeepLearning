@@ -1,0 +1,3 @@
+input_dim: 5
+output_dim: 1
+hidden_dims: [1024, 256, 64, 16]

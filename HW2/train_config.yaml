@@ -1,0 +1,7 @@
+n_epochs: 800
+batch_size: 32
+opt_name: Adam
+opt_config: {lr: 0.00165}
+lr_scheduler_name: StepLR
+lr_scheduler_config: {step_size: 150, gamma: 0.6}
+device: cpu

@@ -1,0 +1,7 @@
+autoregressive_training: true
+optimizer_name: Adam
+optimizer_config: {lr: 0.001}
+lr_scheduler_name: null
+lr_scheduler_config: {}
+n_epochs: 15
+batch_size: 64

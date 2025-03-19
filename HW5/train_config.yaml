@@ -1,0 +1,6 @@
+optimizer_name: Adam
+optimizer_config: {lr: 0.0015}
+lr_scheduler_name: StepLR
+lr_scheduler_config: {step_size: 15, gamma: 0.8}
+batch_size: 32
+n_epochs: 90
