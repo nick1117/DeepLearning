@@ -1,0 +1,3 @@
+latent_size: 16
+output_size: 200
+hidden_sizes: [128, 256]

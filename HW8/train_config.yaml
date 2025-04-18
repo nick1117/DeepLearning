@@ -1,0 +1,10 @@
+optimizer_name_G: Adam
+optimizer_config_G: {lr: 0.0005}
+lr_scheduler_name_G: StepLR
+lr_scheduler_config_G: {gamma: 0.8, step_size: 2000}
+optimizer_name_D: Adam
+optimizer_config_D: {lr: 0.0005}
+lr_scheduler_name_D: CyclicLR
+lr_scheduler_config_D: {base_lr: 0.0005, mode: exp_range, gamma: 0.8, max_lr: 0.005}
+n_iters: 70000
+batch_size: 64
