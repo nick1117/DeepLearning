@@ -1,0 +1,6 @@
+optimizer_name: AdamW
+optimizer_config: {}
+lr_scheduler_name: ReduceLROnPlateau
+lr_scheduler_config: {factor: 0.5, patience: 3}
+n_epochs: 50
+batch_size: 128
