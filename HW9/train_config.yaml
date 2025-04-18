@@ -1,0 +1,8 @@
+optimizer_name: Adam
+optimizer_config:
+  lr: 0.0002
+  betas: !!python/tuple [0.9, 0.999]
+lr_scheduler_name: null
+lr_scheduler_config: {}
+n_iters: 50000
+batch_size: 64

@@ -1,0 +1,8 @@
+T: 1000
+b_0: 0.0001
+b_T: 0.02
+t_embed_dim: 128
+channels: [32, 64, 128, 256]
+n_block_layers: 2
+activation_name: ReLU
+batchnorm: false
